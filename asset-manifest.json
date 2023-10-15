@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Payment-method-React/static/css/main.e6c13ad2.css",
+    "main.js": "/Payment-method-React/static/js/main.b2eecaea.js",
+    "static/js/787.e3d58c6d.chunk.js": "/Payment-method-React/static/js/787.e3d58c6d.chunk.js",
+    "static/media/card.png": "/Payment-method-React/static/media/card.3af91cdfc8dad92784c4.png",
+    "static/media/Logo.png": "/Payment-method-React/static/media/Logo.eb3cd0609f85b1d788b5.png",
+    "static/media/question.png": "/Payment-method-React/static/media/question.d9e186bdb7123db42c64.png",
+    "index.html": "/Payment-method-React/index.html",
+    "main.e6c13ad2.css.map": "/Payment-method-React/static/css/main.e6c13ad2.css.map",
+    "main.b2eecaea.js.map": "/Payment-method-React/static/js/main.b2eecaea.js.map",
+    "787.e3d58c6d.chunk.js.map": "/Payment-method-React/static/js/787.e3d58c6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b2eecaea.js"
+  ]
+}
