@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './components/Header';
+import Products from './components/Products';
+import Container from './components/Container';
+import Shipping from './components/Shiping';
+import ButtonComponent from './components/CardButton';
+import Modal from './components/ui/Modal';
+import { useSelector } from 'react-redux';
+import { RootState } from './store/store';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const active = useSelector((state: RootState) => state.modal);
+
+    return (
+        <div>
+            <Container>
+
+                <div>
+                    <Header />
+
+                    <div>
+                        <h1>Checkout</h1>
+                        <Products />
+                        <Shipping />
+                        <ButtonComponent />
+                    </div>
+                </div>
+
+            </Container>
+            {active && <Modal />}
+        </div>
+
+    );
 }
 
 export default App;
